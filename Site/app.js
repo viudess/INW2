@@ -13,7 +13,7 @@ const firebaseConfig = {
   const passwordField = document.getElementById('password');
   const loginButton = document.getElementById('loginButton');
 
-loginButton.addEventListener('click', () => {
+loginButton.addEventListener('click', ()=>{
     const email = emailField.value;
     const password = passwordField.value;
     firebase.auth().signInWithEmailAndPassword(email, password)
