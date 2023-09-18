@@ -1,7 +1,7 @@
 {
   "name": "cadastro",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "cadagenda.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "keywords": [],
   "description": "",
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "mongoose": "^7.5.1"
   }
 }
